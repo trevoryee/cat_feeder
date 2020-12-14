@@ -36,7 +36,6 @@ from hx711 import hx711
 servoPIN = 17
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(servoPIN, GPIO.OUT)
-#
 
 #setup HX711 sensor
 class HX711:
@@ -208,7 +207,6 @@ class HX711:
     def reset(self):
         self.power_down()
         self.power_up()
-#
 
 #servo angle set function
 p = GPIO.PWM(servoPIN, 50)
@@ -224,4 +222,3 @@ SetAngle(90)
 SetAngle(-90)
 pwm.stop()
 GPIO.cleanup()
-#
