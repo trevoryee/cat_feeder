@@ -5,7 +5,9 @@ Requires a HX711 sensor and servo motor.
 Servo should be pinned out to:
 
 Black – comes to GND (pin 6) from the Pi
+
 Red – comes to 3V3 (pin 1) from the Pi
+
 Yellow/Orange – to a free GPIO pin (e.g., GPIO17, pin 11)
 
 Load cell to HX711:
