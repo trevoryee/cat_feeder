@@ -21,5 +21,7 @@ def cat_feed:
 			print ("The dish is full")
 			full= true
 			sleep(10800)
+			if get_weight <= 500:
+				full= false
 tare
 cat_feed
