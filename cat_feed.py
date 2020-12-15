@@ -2,8 +2,8 @@ import config.py
 #actual function
 def cat_feed:
 	get_weight= food_weight
-	if food_weight <= 500
-	full= false
+	if food_weight <= 500:
+		full= false
 	while full = false:
 		SetAngle(90)
 		sleep(5)
