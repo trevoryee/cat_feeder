@@ -4,7 +4,7 @@ def cat_feed:
 	get_weight= food_weight
 	if food_weight <= 500:
 		full= false
-	while full = false:
+	while full == false:
 		SetAngle(90)
 		sleep(5)
 		SetAngle(-90)
@@ -17,11 +17,9 @@ def cat_feed:
 		sleep (10800)
 		if get_weight <= 500:
 			full= false
-		if else:
+		else:
 			print ("The dish is full")
 			full= true
 			sleep(10800)
-			if get_weight <= 500
-				full= false
 tare
 cat_feed
