@@ -1,3 +1,4 @@
+import config.py
 #actual function
 def cat_feed:
 	get_weight= food_weight
